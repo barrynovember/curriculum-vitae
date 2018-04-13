@@ -1,0 +1,75 @@
+body{
+    display: block;
+    margin: 15px;
+    background-color: black;
+  }
+
+#navbar{
+  background-color: white;
+  height: 100px;
+  margin: 0px;
+  }
+
+
+#navbar ul{
+  list-style-type: none;
+  margin: 0px;
+  width: auto;
+  padding-left: 650px;
+  padding-top: 30px;
+  }
+
+#navbar li{
+  display: inline;
+  font-size: 30px;
+  float: left;
+  padding-left: 20px;
+  }
+
+#navbar a{
+  text-decoration: none;
+  color: black;
+  }
+#container{
+    display: block;
+    background-color: grey;
+  }
+
+#Home{
+  margin-left: auto;
+  margin-right: auto;
+  background-color: lightblue;
+  height: 300px;
+  width: 90%;
+  }
+
+#About{
+  background-color: white;
+  height: 300px;
+  }
+
+#History{
+  margin-left: auto;
+  margin-right: auto;
+  background-color: lightblue;
+  height: 300px;
+  width: 90%;
+  }
+
+#Skills{
+  background-color: white;
+  height: 300px;
+  }
+
+#Interests{
+  margin-left: auto;
+  margin-right: auto;
+  background-color: lightblue;
+  height: 300px;
+  width: 90%;
+  }
+
+#Contact{
+  background-color: white;
+  height: 300px;
+  }

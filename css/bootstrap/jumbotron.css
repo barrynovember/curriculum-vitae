@@ -1,0 +1,15 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 2rem;
+}
+
+.jumbotron {
+  margin-bottom: 0px;
+  background-image: url(../images/cape-town.jpeg);
+  /*background-image: url(../images/code4ct-logo.jpg);*/
+  background-position: 0% 25%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  text-shadow: black 0.1em 0.1em 0.1em;
+}
