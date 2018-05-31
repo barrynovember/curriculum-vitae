@@ -1,75 +1,175 @@
+
 body{
     display: block;
     margin: 15px;
+    padding: 0px;
     background-color: black;
-  }
+}
 
 #navbar{
   background-color: white;
-  height: 100px;
-  margin: 0px;
-  }
+  height: 50px;
+  margin-top: 0px;
+  border: solid 0.8px;
+  padding-top: 0px;
+  vertical-align: middle;
+  position: sticky;
+  top: -1px;
 
+}
 
 #navbar ul{
   list-style-type: none;
   margin: 0px;
   width: auto;
-  padding-left: 650px;
-  padding-top: 30px;
-  }
+  padding-left: 550px;
+  text-align: center;
+  right: 0;
+}
 
 #navbar li{
-  display: inline;
-  font-size: 30px;
-  float: left;
-  padding-left: 20px;
-  }
+  display: inline-block;
+  padding-left: 10px;
+
+}
 
 #navbar a{
   text-decoration: none;
-  color: black;
-  }
-#container{
+  line-height: 50px;
+  font-size: 25px;
+  text-shadow: 2px 2px 7px black, -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  border-radius: 3px;
+  color: white;
+  padding: 5px;
+
+}
+
+#navbar a:hover {
+  background-color: grey;
+}
+
+/*#container{
     display: block;
     background-color: grey;
-  }
 
-#Home{
+}*/
+
+.rightview{
   margin-left: auto;
-  margin-right: auto;
+  width: 80%;
+  height: 63vh;
   background-color: lightblue;
-  height: 300px;
-  width: 90%;
-  }
+  border: solid 0.8px
 
-#About{
-  background-color: white;
-  height: 300px;
-  }
+}
 
-#History{
-  margin-left: auto;
+.leftview{
   margin-right: auto;
-  background-color: lightblue;
-  height: 300px;
-  width: 90%;
-  }
-
-#Skills{
+  width: 80%;
+  height: 63vh;
   background-color: white;
-  height: 300px;
-  }
+  border: solid 0.8px;
 
-#Interests{
-  margin-left: auto;
-  margin-right: auto;
-  background-color: lightblue;
-  height: 300px;
-  width: 90%;
-  }
+}
+.headings{
+  padding-bottom:0em;
+}
 
-#Contact{
-  background-color: white;
-  height: 300px;
-  }
+.headings h1{
+  font-size: 2em;
+  margin: 0em;
+  margin-bottom: 0.5em;
+  padding-top: 50px;
+  padding-left: 20px;
+
+}
+
+.content h2{
+  padding-left: 4em;
+  margin: 0.1em;
+
+}
+
+.content h3{
+  padding-left: 5.2em;
+  margin: 0.1em;
+}
+
+.content p{
+  font-size: 1.2em;
+  padding-left: 5em;
+  text-align: justify;
+  margin: 0.2em;
+
+}
+
+
+
+.figures figure{
+  background-color: black;
+  display: inline-block;
+  width: 7em;
+  height: 6.5em;
+  margin: 0em;
+  margin-left: 7em;
+  border-radius: 0.2em;
+
+}
+
+.figures figure img{
+  width: 7em;
+  height: 6em;
+
+}
+
+.leftview .headings figure {
+  width: 8em;
+  height: 7em;
+  margin-left: 0em;
+  margin-right: 0em;
+
+}
+.heading1{
+  display: inline-block;
+  width: 20em;
+
+}
+
+.heading1 h3{
+  padding: 0em;
+}
+
+.heading1 p{
+  padding: 0em;
+}
+
+#myBtn {
+    display: inline-block;
+    position: fixed;
+    text-decoration: none;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 17px;
+    border: none;
+    outline: none;
+    background-color: white;
+    color: white;
+    cursor: pointer;
+    font-family: serif;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 4px;
+}
+
+#myBtn:hover {
+    background-color: #555;
+}
+
+#myBtn h1 {
+    margin: inherit;
+    text-shadow: 2px 2px 7px black, -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    border-radius: 3px;
+    padding: 2px;
+
+}
